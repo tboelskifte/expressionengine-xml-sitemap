@@ -14,7 +14,7 @@
 </url>
 {/exp:channel:entries}
 
-{!-- ALL CATEGORIES PAGE --}
+{!-- ARTICLES BY CATEGORIES PAGE --}
 {exp:channel:entries channel="greycells" dynamic="no" status="open" orderby="entry_date" limit="1" sort="desc" disable="member_data|pagination|categories|custom_fields|relationships"}
 <url>
  <loc>{site_url}all-categories/</loc>

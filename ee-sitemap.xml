@@ -15,7 +15,7 @@
 {/exp:channel:entries}
 
 {!-- ALL CATEGORIES PAGE --}
-{exp:channel:entries channel="greycells" dynamic="no" status="open" orderby="edit_date" limit="1" sort="desc" disable="member_data|pagination|categories|custom_fields|relationships"}
+{exp:channel:entries channel="greycells" dynamic="no" status="open" orderby="entry_date" limit="1" sort="desc" disable="member_data|pagination|categories|custom_fields|relationships"}
 <url>
  <loc>{site_url}all-categories/</loc>
  <lastmod>{entry_date format='%Y-%m-%dT%H:%i:%s+02:00'}</lastmod>

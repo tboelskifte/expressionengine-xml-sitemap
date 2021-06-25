@@ -45,7 +45,7 @@
 {!-- ENTRIES --}
 {exp:channel:entries channel="greycells" dynamic="no" status="open" orderby="edit_date" sort="desc" disable="member_data|pagination|categories|custom_fields|relationships"}
 <url>
- <loc>{site_url}news/{url_title}/</loc>
+ <loc>{url_title_path='news/index'}/</loc>
  <lastmod>{edit_date format='%Y-%m-%dT%H:%i:%s+02:00'}</lastmod>
  <changefreq>daily</changefreq>
  <priority>0.8</priority>
